@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TriGame - Trang web game online</title>
+  <style>
+    body { margin:0; font-family: Arial, sans-serif; background: #f8f9fa; }
+    header { background: #007bff; padding: 20px; text-align: center; color: white; font-size: 28px; }
+    .game-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px,1fr)); gap: 20px; padding: 20px; }
+    .game-card { background: white; border-radius:10px; box-shadow:0 2px 10px rgba(0,0,0,0.1); overflow:hidden; transition: transform 0.2s ease; }
+    .game-card:hover { transform: scale(1.03); }
+    .game-thumb { width:100%; height:140px; object-fit:cover; }
+    .game-info { padding:10px; }
+    .game-info h3 { margin:5px 0; font-size:18px; }
+    .game-info table { width:100%; font-size:14px; border-collapse:collapse; margin: auto; }
+    .game-info th, .game-info td { padding:4px; text-align:left; }
+    .game-info th { width:40%; color:#555; }
+    .play-btn { display:inline-block; margin-top:10px; padding:8px 12px; background:#28a745; color:white; border-radius:5px; text-decoration:none; }
+    .play-btn:hover { background:#218838; }
+  </style>
+</head>
+<body>
+  <header>🎯 TriGame – Game Online Miễn Phí</header>
+  <section class="game-grid">
+    <div class="game-card">
+      <img class="game-thumb" src="https://i.imgur.com/0ZbK9uT.jpg" alt="Agar.io">
+      <div class="game-info">
+        <h3>Agar.io</h3>
+        <table>
+          <tr><th>Thể loại</th><td>Sinh tồn / Nuôi lớn</td></tr>
+          <tr><th>Chơi web</th><td>Có</td></tr>
+          <tr><th>App</th><td>Có</td></tr>
+        </table>
+        <a class="play-btn" href="https://agar.io" target="_blank">Chơi ngay</a>
+      </div>
+    </div>
+    <div class="game-card">
+      <img class="game-thumb" src="https://i.imgur.com/GK6rO5c.jpg" alt="Slither.io">
+      <div class="game-info">
+        <h3>Slither.io</h3>
+        <table>
+          <tr><th>Thể loại</th><td>Sinh tồn / Nuôi lớn</td></tr>
+          <tr><th>Chơi web</th><td>Có</td></tr>
+          <tr><th>App</th><td>Có</td></tr>
+        </table>
+        <a class="play-btn" href="https://slither.io" target="_blank">Chơi ngay</a>
+      </div>
+    </div>
+    <div class="game-card">
+      <img class="game-thumb" src="https://i.imgur.com/W0SpCFI.jpg" alt="Krunker.io">
+      <div class="game-info">
+        <h3>Krunker.io</h3>
+        <table>
+          <tr><th>Thể loại</th><td>FPS bắn súng</td></tr>
+          <tr><th>Chơi web</th><td>Có</td></tr>
+          <tr><th>App</th><td>Có (app)</td></tr>
+        </table>
+        <a class="play-btn" href="https://krunker.io" target="_blank">Chơi ngay</a>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
